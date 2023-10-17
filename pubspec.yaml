@@ -28,6 +28,7 @@ dependencies:
   pull_to_refresh: ^2.0.0
   permission_handler: ^11.0.1
   package_info_plus: ^4.1.0
+  flutter_svg: ^2.0.7
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +55,7 @@ flutter:
   # 图片
   assets:
     - assets/images/
+    - assets/svgs/
 
   # 字体
   fonts:

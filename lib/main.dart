@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'global.dart';
+import 'common/index.dart';
 
-void main() {
+Future<void> main() async {
+  await Global.init();
   runApp(const MyApp());
 }
 
@@ -10,28 +17,34 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a blue toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const Center(child: Text('hello world')),
+    return ScreenUtilInit(
+      designSize: const Size(414, 896),
+      builder: (context, child) {
+        return RefreshConfiguration(
+          headerBuilder: () => const ClassicHeader(),
+          footerBuilder: () => const ClassicFooter(),
+          hideFooterWhenNotFull: true,
+          headerTriggerDistance: 80,
+          maxOverScrollExtent: 100,
+          footerTriggerDistance: 150,
+          child: GetMaterialApp(
+            title: 'app title',
+            initialRoute: RouteNames.main,
+            getPages: RoutePages.list,
+            navigatorObservers: [RoutePages.observer],
+            theme: ConfigService.to.isDarkModel ? AppTheme.dark : AppTheme.light,
+            translations: Translation(),
+            localizationsDelegates: Translation.localizationsDelegates,
+            supportedLocales: Translation.supportedLocales,
+            locale: ConfigService.to.locale,
+            fallbackLocale: Translation.fallbackLocale,
+            builder: (context, widget) {
+              widget = EasyLoading.init()(context, widget);
+              return MediaQuery(data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0), child: widget);
+            },
+          ),
+        );
+      },
     );
   }
 }

@@ -6,4 +6,9 @@ Map<String, String> localeEn = {
   LocaleKeys.commonCancel: 'Cancel',
 
   LocaleKeys.welcomeNext: 'Next',
+
+  LocaleKeys.tabBarHome: 'Home',
+  LocaleKeys.tabBarNews: 'News',
+  LocaleKeys.tabBarMessage: 'Message',
+  LocaleKeys.tabBarProfile: 'Profile',
 };
