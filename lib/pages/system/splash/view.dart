@@ -7,12 +7,17 @@ class SplashPage extends GetView<SplashController> {
   const SplashPage({super.key});
 
   Widget _buildView() {
-    return const Text('splash');
+    return Container(
+      color: Colors.yellow,
+      child: Text('splash'),);
   }
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<SplashController>(builder: (_) {
+    return GetBuilder<SplashController>(
+      init: SplashController(),
+        id: 'splash',
+        builder: (_) {
       return _buildView();
     });
   }

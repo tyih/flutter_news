@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           footerTriggerDistance: 150,
           child: GetMaterialApp(
             title: 'app title',
-            initialRoute: RouteNames.main,
+            initialRoute: RouteNames.systemSplash,
             getPages: RoutePages.list,
             navigatorObservers: [RoutePages.observer],
             theme: ConfigService.to.isDarkModel ? AppTheme.dark : AppTheme.light,

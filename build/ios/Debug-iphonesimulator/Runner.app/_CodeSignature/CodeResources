@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		3Abq7GOA4fR8wrODh1E8X9JnUEc=
+		acHO5r7Dr6jKtdKKRfO2n7FmchM=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		UJryqedj7Uzh3F8wuRYvCeyr0EM=
+		jQL4PFz4BU5rMuD5MNqoV/whaRM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		8vBFvdj77aUuivtz8Yh1s3/TPLg=
+		mDNtbi66z4r1aUQeG9k1gauRda0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Avenir-Book.ttf</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		fPWVhGAO+SdtYRNixOuaTaTTYn4=
+		MKq5C5WB9W7lJEwZHZp/WUUFKbw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -528,6 +528,18 @@
 		<data>
 		nMTZkkm9uooDDa8A2YJSyK73oP8=
 		</data>
+		<key>Frameworks/flutter_native_splash.framework/Info.plist</key>
+		<data>
+		vf3S6h2R9DdhFbuNJtsbtG9C27M=
+		</data>
+		<key>Frameworks/flutter_native_splash.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ni8Ri1hNoui9vnptjDTKBcI2ts4=
+		</data>
+		<key>Frameworks/flutter_native_splash.framework/flutter_native_splash</key>
+		<data>
+		eVyNl1bqEJenC8eChcMjaMtaQ4w=
+		</data>
 		<key>Frameworks/package_info_plus.framework/Info.plist</key>
 		<data>
 		o7RWXFlHzD5CJRXhxWm1arsAPGY=
@@ -538,7 +550,7 @@
 		</data>
 		<key>Frameworks/package_info_plus.framework/package_info_plus</key>
 		<data>
-		yM4okVR0PvnLeaOaqRM2U6HZDoM=
+		WhDF6YJT0ocfGljn0oRw0T5/6GE=
 		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/Info.plist</key>
 		<data>
@@ -550,7 +562,7 @@
 		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation</key>
 		<data>
-		xl41viL/c+24DSS3gGbhN2hFrFw=
+		q23K2rMIVhyb6IuVdUEWTkvFlJs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -637,7 +649,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uzOnSQ9YEmDYLyyq/YetkRjnfk2TRTCgr137x25TFlY=
+			BXiYIEVgw+dVC4q+UAb2EVx2u6jSwdvs0e7mFqXFJ4A=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -651,7 +663,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z/qV5ujP2isr88YlEn4Z7Mw716iprx0lZ+oxCtpcj18=
+			jfhq6+u+A5NjH9YPac4cIP0nfRhsb6ockQkywDipTuo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -679,7 +691,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NNh9DHBxxJ+vEUQkEJmA1HVnzGNvmVhND4q/kSx3XLI=
+			NYxqFSJ9GioJsTM4O4G3i+uVigATElO0NCDWkfLqPFk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Avenir-Book.ttf</key>
@@ -1309,7 +1321,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XhsYkD5a6NR2dEEECIaKBnVGO4CCHQcNOyEABfdZOlM=
+			2gN9QAdi2BdKuwZf8KygZ3Yu8ABkLuItK8bT3LD1smA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1480,6 +1492,27 @@
 			rETMw/Yb9jC7IPuAQ9hs/kyJldBrRgCEQA20XXBJezA=
 			</data>
 		</dict>
+		<key>Frameworks/flutter_native_splash.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2dgu5zqwQa6trqmUVnesT9aiX0AHWLj6VQETMJngVLk=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_native_splash.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VpGgXFw8xpigstcwyCEazwneMGy+eG0WxqFk4vZ9er8=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_native_splash.framework/flutter_native_splash</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			alAS3B7w89PAg1ZjQ/Y7dccI7nuwrJt1c6YEf1pJt40=
+			</data>
+		</dict>
 		<key>Frameworks/package_info_plus.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1498,7 +1531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hi1nqIJ9Cz1W+/uNhLIS+s+6LodYeg62rzgd58TeRTY=
+			tSLmxfYiT2Ri3eUh7ymdvN/uEL3rAvQ7QazvQ+y9Mgs=
 			</data>
 		</dict>
 		<key>Frameworks/shared_preferences_foundation.framework/Info.plist</key>
@@ -1519,7 +1552,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JT039/rXQWB//nGXQAzxux61XArvdx8e+3Qd5m+npg0=
+			s8WOQfaUo7yA8DotuKokSYtknbQiL0N7aoOhU71XuMo=
 			</data>
 		</dict>
 	</dict>

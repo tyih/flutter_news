@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_news/common/index.dart';
-import 'package:flutter_news/pages/home/home_index/index.dart';
 import 'package:flutter_news/pages/index.dart';
 import 'package:get/get.dart';
 
-import 'index.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
